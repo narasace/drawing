@@ -1,0 +1,26 @@
+{
+  "name": "gitdrawing",
+  "version": "0.0.0",
+  "description": "cool drawing app example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/narasace/drawing"
+  },
+  "keywords": [
+    "ny726926"
+  ],
+  "author": "shaojie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narasace/drawing/issues"
+  },
+  "homepage": "https://github.com/narasace/drawing",
+  "dependencies": {
+    "node-static": "~0.7.2",
+    "socket.io": "~0.9.16"
+  }
+}
