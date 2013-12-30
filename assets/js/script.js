@@ -3,7 +3,7 @@ $(function(){
 		alert('Sorry, it looks like your browser does not support canvas!');
 		return false;
 	}
-	var url = 'http://localhost:8000';
+	var url = null;
 	var doc = $(document),
 		win = $(window),
 		canvas = $('#paper'),

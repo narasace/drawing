@@ -2,7 +2,7 @@ var app = require('http').createServer(handler),
 	io = require('socket.io').listen(app),
 	static = require('node-static');
 var fileServer = new static.Server('./');
-app.listen(8000);
+app.listen($PORT);
 function handler (request, response) {
 	request.addListener('end', function () {
         fileServer.serve(request, response);
